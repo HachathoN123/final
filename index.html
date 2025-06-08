@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pomoc.tu - Aplikacja łącząca potrzebujących z pomocą</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <!-- WAŻNE: Podmień na swoje logo z Figmy -->
+                <img src="https://i.ibb.co/C0bvyY7/logo-pomoc-tu.png" alt="logo pomoc.tu" class="logo-img">
+            </a>
+            <nav class="main-nav">
+                <a href="#pobierz" class="btn btn-primary">Pobierz aplikację</a>
+                <div class="lang-switch">
+                    <span>EN</span>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sekcja Hero - POPRAWIONA WERSJA -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1>
+                        Aplikacja<br>
+                        łącząca<br>
+                        potrzebujących<br>
+                        z pomocą
+                    </h1>
+                </div>
+                <div class="hero-image-wrapper">
+                    <!-- WAŻNE: Podmień na swój mockup telefonu z Figmy -->
+                    <img src="https://i.ibb.co/L50H8sY/phone-mockup.png" alt="Aplikacja pomoc.tu na smartfonie" class="phone-mockup">
+                    <div class="qr-code-container">
+                        <!-- WAŻNE: Podmień na swój kod QR z Figmy -->
+                        <img src="https://i.ibb.co/3k9bS2h/qr-code.png" alt="Kod QR do pobrania aplikacji" class="qr-code-img">
+                    </div>
+                </div>
+            </div>
+            <!-- Dekoracyjne fale w tle -->
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+        </section>
+
+        <!-- Sekcja Funkcji -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Funkcje aplikacji pomoc.tu</h2>
+                    <p>Kompleksowe narzędzia wspierające osoby w trudnej sytuacji życiowej oraz umożliwiające pomoc innym</p>
+                </div>
+                <div class="features-split">
+                    <div class="feature-card animated-card">
+                        <h3>Szukam wsparcia</h3>
+                        <p>Znajdź miejsca pomocy, skorzystaj z poradników i otrzymaj wsparcie 24/7</p>
+                    </div>
+                    <div class="feature-card animated-card">
+                        <h3>Chcę pomóc innym</h3>
+                        <p>Dodaj miejsca pomocy, wspieraj rzeczowo i buduj społeczność wzajemnej pomocy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sekcja Szczegółowych Funkcji -->
+        <section id="detailed-features" class="detailed-features-section">
+            <div class="container detailed-features-container">
+                <div class="feature-column animated-card">
+                    <ul>
+                        <li><i class='bx bx-map-pin'></i><div><h4>Mapa pomocy</h4><p>Geolokalizacja miejsc wsparcia.</p></div></li>
+                        <li><i class='bx bx-book-open'></i><div><h4>Poradnik praktyczny</h4><p>Wskazówki jak zadbać o siebie.</p></div></li>
+                        <li><i class='bx bx-walk'></i><div><h4>Kroki do samodzielności</h4><p>Interaktywny plan działania.</p></div></li>
+                        <li><i class='bx bx-bot'></i><div><h4>Chatbot 24/7</h4><p>Całodobowe wsparcie i kierowanie.</p></div></li>
+                        <li><i class='bx bx-chat'></i><div><h4>Czat z konsultantem</h4><p>Rozmowy z ekspertami.</p></div></li>
+                        <li><i class='bx bxs-quote-left'></i><div><h4>Historie innych</h4><p>Inspirujące artykuły i nagrania.</p></div></li>
+                        <li><i class='bx bx-question-mark'></i><div><h4>Quiz samooceny</h4><p>Sprawdź, czy jesteś zagrożony.</p></div></li>
+                        <li><i class='bx bx-box'></i><div><h4>Kącik rzeczy do życia</h4><p>Darmowe przedmioty od innych.</p></div></li>
+                    </ul>
+                </div>
+                <div class="feature-column animated-card">
+                    <ul>
+                        <li><i class='bx bx-plus-circle'></i><div><h4>Dodawanie miejsc pomocy</h4><p>Możliwość dodania nowych lokalizacji.</p></div></li>
+                        <li><i class='bx bxs-package'></i><div><h4>Wsparcie rzeczowe</h4><p>Oferowanie darmowych przedmiotów.</p></div></li>
+                    </ul>
+                    <div class="community-box">
+                        <h4>Buduj społeczność pomocy</h4>
+                        <p>Twoja pomoc tworzy sieć wsparcia, która może zmienić życie wielu osób. Każdy gest ma znaczenie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Misji -->
+        <section id="mission" class="mission-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Nasza misja i cele</h2>
+                    <p>pomoc.tu to więcej niż aplikacja - to cyfrowy most łączący osoby w trudnej sytuacji życiowej z konkretną pomocą w ich okolicy.</p>
+                </div>
+                <div class="quote">
+                    "Każdy zasługuje na wsparcie i szansę na lepsze jutro"
+                </div>
+                <div class="values-grid">
+                    <div class="value-item animated-card"><i class='bx bx-check-circle'></i><h4>Dostępność pomocy</h4><p>Ułatwiamy dostęp poprzez geolokalizację.</p></div>
+                    <div class="value-item animated-card"><i class='bx bx-check-circle'></i><h4>Wsparcie emocjonalne</h4><p>Oferujemy chatbot i rozmowy z konsultantami.</p></div>
+                    <div class="value-item animated-card"><i class='bx bx-check-circle'></i><h4>Społeczność wzajemnej pomocy</h4><p>Łączymy osoby potrzebujące z tymi, którzy chcą pomóc.</p></div>
+                    <div class="value-item animated-card"><i class='bx bx-check-circle'></i><h4>Kompleksowe rozwiązanie</h4><p>Od podstawowych potrzeb po plany powrotu do samodzielności.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo">
+                    <img src="https://i.ibb.co/C0bvyY7/logo-pomoc-tu.png" alt="logo pomoc.tu" class="logo-img">
+                </a>
+                <p>Aplikacja mobilna łącząca osoby w trudnej sytuacji życiowej z dostępną pomocą w ich okolicy.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Kontakt</h4>
+                <ul>
+                    <li><a href="mailto:kontakt@pomoc.tu"><i class='bx bx-envelope'></i> kontakt@pomoc.tu</a></li>
+                    <li><a href="tel:+48000000000"><i class='bx bx-phone'></i> +48 XXX XXX XXX</a></li>
+                    <li><i class='bx bx-map'></i> Polska</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>O projekcie</h4>
+                <ul>
+                    <li><a href="#">Polityka prywatności</a></li>
+                    <li><a href="#">Regulamin</a></li>
+                    <li><a href="#">Jak pomóc?</a></li>
+                    <li><a href="#">Partnerzy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
