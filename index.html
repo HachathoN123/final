@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pomoc.tu - Aplikacja łącząca potrzebujących z pomocą</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="./vector.svg" alt="logo pomoc.tu" class="logo-img">
+            </a>
+            <nav class="main-nav">
+                <a href="https://www.figma.com/proto/NDaJOiUAgez6UljtwV81lV/Untitled?page-id=0%3A1&node-id=1-177&p=f&viewport=40%2C277%2C0.19&t=zAPEGAr79yzjd3UJ-1&scaling=min-zoom&content-scaling=fixed" class="btn btn-primary" data-translate="download_app" target="_blank">Sprawdź Prototyp</a>
+                <div class="lang-switch">
+                    <select id="language-select">
+                        <option value="pl">Polski</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sekcja Hero - POPRAWIONA WERSJA -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1 data-translate="hero_title">
+                        Aplikacja<br>
+                        łącząca<br>
+                        <span style="color: #251F5F;">potrzebujących</span><br>
+                        z pomocą
+                    </h1>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="./tel.svg" alt="Aplikacja pomoc.tu na smartfonie" class="phone-mockup">
+                    <div class="qr-code-container">
+                        <img src="./qr.svg" alt="Kod QR do pobrania aplikacji" class="qr-code-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Funkcji -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="features_title">Funkcje aplikacji po<span style="color:#7383FF">moc</span>.tu</h2>
+                    <p data-translate="features_desc">Kompleksowe narzędzia wspierające osoby w trudnej sytuacji życiowej oraz umożliwiające pomoc innym</p>
+                </div>
+                <div class="features-split">
+                    <div class="feature-card animated-card">
+                        <h3 data-translate="feature1_title">Szukam wsparcia</h3>
+                        <p data-translate="feature1_desc">Znajdź miejsca pomocy, skorzystaj z poradników i otrzymaj wsparcie 24/7</p>
+                    </div>
+                    <div class="feature-card animated-card">
+                        <h3 data-translate="feature2_title">Chcę pomóc innym</h3>
+                        <p data-translate="feature2_desc">Dodaj miejsca pomocy, wspieraj rzeczowo i buduj społeczność wzajemnej pomocy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sekcja Szczegółowych Funkcji -->
+        <section id="detailed-features" class="detailed-features-section">
+            <div class="container detailed-features-container">
+                <div class="feature-column animated-card">
+                    <ul>
+                        <li data-translate="advanced1"><i class='bx bx-map-pin'></i><div><h4>Mapa pomocy</h4><p>Geolokalizacja miejsc wsparcia.</p></div></li>
+                        <li data-translate="advanced2"><i class='bx bx-book-open'></i><div><h4>Poradnik praktyczny</h4><p>Wskazówki jak zadbać o siebie.</p></div></li>
+                        <li data-translate="advanced3"><i class='bx bx-walk'></i><div><h4>Kroki do samodzielności</h4><p>Interaktywny plan działania.</p></div></li>
+                        <li data-translate="advanced4"><i class='bx bx-bot'></i><div><h4>Chatbot 24/7</h4><p>Całodobowe wsparcie i kierowanie.</p></div></li>
+                        <li data-translate="advanced5"><i class='bx bx-chat'></i><div><h4>Czat z konsultantem</h4><p>Rozmowy z ekspertami.</p></div></li>
+                        <li data-translate="advanced6"><i class='bx bxs-quote-left'></i><div><h4>Historie innych</h4><p>Inspirujące artykuły i nagrania.</p></div></li>
+                        <li data-translate="advanced7"><i class='bx bx-question-mark'></i><div><h4>Quiz samooceny</h4><p>Sprawdź, czy jesteś zagrożony.</p></div></li>
+                        <li data-translate="advanced8"><i class='bx bx-box'></i><div><h4>Kącik rzeczy do życia</h4><p>Darmowe przedmioty od innych.</p></div></li>
+                    </ul>
+                </div>
+                <div class="feature-column animated-card">
+                    <ul>
+                        <li data-translate="advanced9"><i class='bx bx-plus-circle'></i><div><h4>Dodawanie miejsc pomocy</h4><p>Możliwość dodania nowych lokalizacji.</p></div></li>
+                        <li data-translate="advanced10"><i class='bx bxs-package'></i><div><h4>Wsparcie rzeczowe</h4><p>Oferowanie darmowych przedmiotów.</p></div></li>
+                    </ul>
+                    <div class="community-box">
+                        <h4 data-translate="advanced11">Buduj społeczność pomocy</h4>
+                        <p data-translate="advanced12">Twoja pomoc tworzy sieć wsparcia, która może zmienić życie wielu osób. Każdy gest ma znaczenie.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sekcja Misji -->
+        <section id="mission" class="mission-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="advanced13">Nasza misja i cele</h2>
+                    <p data-translate="advanced14">pomoc.tu to więcej niż aplikacja - to cyfrowy most łączący osoby w trudnej sytuacji życiowej z konkretną pomocą w ich okolicy.</p>
+                </div>
+                <div class="quote" data-translate="advanced15">
+                    "Każdy zasługuje na wsparcie i szansę na lepsze jutro"
+                </div>
+                <div class="values-grid">
+                    <div class="value-item animated-card" data-translate="advanced16"><i class='bx bx-check-circle'></i><h4>Dostępność pomocy</h4><p>Ułatwiamy dostęp poprzez geolokalizację.</p></div>
+                    <div class="value-item animated-card" data-translate="advanced17"><i class='bx bx-check-circle'></i><h4 >Wsparcie emocjonalne</h4><p>Oferujemy chatbot i rozmowy z konsultantami.</p></div>
+                    <div class="value-item animated-card" data-translate="advanced18"><i class='bx bx-check-circle'></i><h4 >Społeczność wzajemnej pomocy</h4><p>Łączymy osoby potrzebujące z tymi, którzy chcą pomóc.</p></div>
+                    <div class="value-item animated-card" data-translate="advanced19"><i class='bx bx-check-circle'></i><h4 >Kompleksowe rozwiązanie</h4><p>Od podstawowych potrzeb po plany powrotu do samodzielności.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo">
+                    <img src="./vector.svg" alt="logo pomoc.tu" class="logo-img">
+                </a>
+                <p data-translate="footer_desc">Aplikacja mobilna łącząca osoby w trudnej sytuacji życiowej z dostępną pomocą w ich okolicy.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-translate="contact">Kontakt</h4>
+                <ul>
+                    <li><a href="mailto:kontakt@pomoc.tu"><i class='bx bx-envelope'></i> kontakt@pomoc.tu</a></li>
+                    <li><a href="tel:+48000000000"><i class='bx bx-phone'></i> +48 XXX XXX XXX</a></li>
+                    <li data-translate="country"><i class='bx bx-map'></i> Polska</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-translate="about_project">O projekcie</h4>
+                <ul>
+                    <li><a href="#" data-translate="privacy">Polityka prywatności</a></li>
+                    <li><a href="#" data-translate="rules">Regulamin</a></li>
+                    <li><a href="#" data-translate="how_to_help">Jak pomóc?</a></li>
+                    <li><a href="#" data-translate="partners">Partnerzy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
